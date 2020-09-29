@@ -1,3 +1,87 @@
-Codepen: 
+Codepen: https://codepen.io/BritHemming/pen/eYYEoPa?editors=1100
 
 Review: 
+1. What is Semantic HTML? 
+A semantic HTML tells the browser exactly what the content does
+    2. What is HTML used for? 
+HTML is used to create connections between the browser and the user
+    3. What is an attribute and where do we put it? 
+An attribute provides additional information and it does right after a semantic html in the opening
+    4. What is the h1 tag used for? How many times should I use it on a page?
+H1 tag is used for the most important header and only should be used once
+    5. Name two tags that have required attributes
+Href and img src
+    6. What do we put in the head of our HTML document? 
+<header>
+    7. What is an id? 
+An id references a specific element
+    8. What elements can I add an id to? 
+Any type of element because it is global
+    9. How many times can I use the same id on a page? 
+You can’t because an id references to a specific element
+    10. What is a class? 
+A class styles multiple elements
+    11. What elements can I add a class to? 
+Any type of element
+    12. How many times can I use the same class on a page? 
+However much times needed
+    13. How do I get my link to open in a new tab?
+Add the attribute “target_blank” inside of an anchor tag
+    14. What is the alt attribute in the image tag used for? 
+To name the image
+    15. How do I reference an id?
+#idname
+    16. What is the difference between a section and a div
+A section organizes content on the webpage, versus a div is an empty container
+    17. What is CSS used for? 
+To add style to the webpage
+    18. How to we select an element? Example - every h2 on the page
+By inputting just h2 in CSS versus <h2>
+    19. What is the difference between a class and an id? - Give me an example of when I might    use each one
+An id is to a specific element versus a class are to multiple elements. For example, a class could be used to give every type of header the same color, but the HTML coding for it wont all be in the same container. And a id could be used to target one specific container of paragraphs that wouldn’t be used anywhere else on the page.
+    20. How do we select classes in CSS?
+Classes are selected with a period then the class name
+    21. How do we select a p element with a single class of “human””?
+`.human p {}
+    22. What is a parent child selector? When would this be useful? 
+The child is a element within a whole container (parent is the name of the container) this would be useful when you are targeting a very specific element
+    23. How do you select all links within a div with the class of sidebar?
+
+    24. What is a pseudo selector?
+Creates more interaction for the user (example: :hover)
+    25. What do we use the change the spacing between lines?
+line-height:
+    26. What do we use to change the spacing between letters?
+letter-spacing:
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+Text-transform: Capitalization | lowercase | uppercase
+    28. How do I add a 1px border around my div that is dotted and black?
+Div {
+Border: 1px dotted black;
+}
+    29. How do I select everything on the page? 
+Ctrl a
+    30. How do I write a comment in CSS?
+<!-- txt -->
+    31. How do I find out what file I am in, when I am using the command line? 
+$ pwd
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+$ ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+$ rm and because once you delete it, there is no recovering it
+    34. Why should I use version control? 
+That way just incase anything happens, you always have your previous version to work on versus needing to start from scratch
+    35. How often should I commit to github?
+Any type new important information was added
+    36. What is the command we would use to push our repo up to github? 
+Git push 
+    37. Walk me through Lambda's git flow.
+Cd desktop
+Cd folder name
+Git clone (copy and paste in github link)
+Cd project name
+Git checkout -b firstname-lastname
+Work on project…
+Git add .
+Git commit -m “note:
+Git push -u origin branch-name
